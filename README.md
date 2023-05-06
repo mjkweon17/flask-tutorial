@@ -23,3 +23,5 @@
 
 - initialize the database
     - flask --app flaskr init-db
+
+### Blueprints and Views

@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Flask instance folder
+instance/
+
+# pytest cache
+.pytest_cache/
+
+# Coverage files
+.coverage
+htmlcov/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/

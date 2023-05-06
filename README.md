@@ -25,3 +25,19 @@
     - flask --app flaskr init-db
 
 ### Blueprints and Views
+
+
+### Make the Project Installable
+
+- manage project's dependencies
+    - pip install yourproject.whl
+- pyproject.toml
+    - describes your project and how to build it
+- MANIFEST.in
+    - tell The setuptools build backend about non-Python files to include
+- install your project in the virtual environment
+    - pip install -e .
+    - tells pip to find pyproject.toml in the current directory and install the project in editable or development mode
+
+
+- https://flask.palletsprojects.com/en/2.3.x/tutorial/tests/ 부터 볼 차례

@@ -13,3 +13,8 @@
 - Flask 설치
     - pip install Flask
 
+
+### Application Setup
+
+- debug 모드로 flask 앱 실행
+    - flask --app flaskr run --debug

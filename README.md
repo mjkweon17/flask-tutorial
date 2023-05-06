@@ -18,3 +18,8 @@
 
 - debug 모드로 flask 앱 실행
     - flask --app flaskr run --debug
+
+### Define and Access the Database
+
+- initialize the database
+    - flask --app flaskr init-db
